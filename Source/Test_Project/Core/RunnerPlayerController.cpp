@@ -3,10 +3,3 @@
 
 #include "Core/RunnerPlayerController.h"
 
-RunnerPlayerController::RunnerPlayerController()
-{
-}
-
-RunnerPlayerController::~RunnerPlayerController()
-{
-}

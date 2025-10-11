@@ -3,13 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "RunnerGameMode.generated.h"
 
 /**
  * 
  */
-class TEST_PROJECT_API RunnerGameMode
+UCLASS()
+class TEST_PROJECT_API ARunnerGameMode : public AGameModeBase
 {
-public:
-	RunnerGameMode();
-	~RunnerGameMode();
+	GENERATED_BODY()
+	
 };

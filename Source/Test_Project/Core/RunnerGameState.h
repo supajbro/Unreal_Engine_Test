@@ -3,13 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/GameStateBase.h"
+#include "RunnerGameState.generated.h"
 
 /**
  * 
  */
-class TEST_PROJECT_API RunnerGameState
+UCLASS()
+class TEST_PROJECT_API ARunnerGameState : public AGameStateBase
 {
-public:
-	RunnerGameState();
-	~RunnerGameState();
+	GENERATED_BODY()
+	
 };

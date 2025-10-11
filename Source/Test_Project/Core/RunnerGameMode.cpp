@@ -3,10 +3,3 @@
 
 #include "Core/RunnerGameMode.h"
 
-RunnerGameMode::RunnerGameMode()
-{
-}
-
-RunnerGameMode::~RunnerGameMode()
-{
-}

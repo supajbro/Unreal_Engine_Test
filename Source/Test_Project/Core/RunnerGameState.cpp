@@ -3,10 +3,3 @@
 
 #include "Core/RunnerGameState.h"
 
-RunnerGameState::RunnerGameState()
-{
-}
-
-RunnerGameState::~RunnerGameState()
-{
-}
